@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             if (!password.matches(".*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>/?].*".toRegex())) {
                 passwordTextView.text = "${passwordTextView.text}\nHasło powinno zawierać przynajmniej jeden znak specjalny."
                 isValid = false
-            }   Dao
+            }
 
             if (isValid) {
                 passwordTextView.text = "Hasło jest prawidłowe."
